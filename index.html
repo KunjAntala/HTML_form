@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="child">
+            <h1>Create an account</h1>
+            <p>We'll use your Facebook details to create you Mighty Ape account.</p>
+        </div>
+
+        <form action="">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>        
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <p>Password must be at least 8 characters.</p>
+            <label for="confirmpassword">Confirm Password</label>
+            <input type="password" id="confirmpassword" name="confirmpassword" required>
+            <label for="bdate">Birth Date ( Optional )</label>
+            <input type="date" id="bdate" name="bdate" required>
+            <p>We may send you something for your birthday!</p>
+
+            <div class="checkboxCon">
+                <input type="checkbox" id="notification" name="notification" required>
+                <span>I whould like to receive emails from MightyApe.</span>
+            </div>
+            
+            <p>By submitting this form you confirm that you have read and aggree with our <a href="#">terms and conditions</a></p>
+            <button type="Submit">Create Account</button>
+        </form>
+    </div>
+</body>
+</html>
